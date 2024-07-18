@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family: "Libre Baskerville";
+    width: 220px;
+    margin: 0 auto;
+}
+.chessboard{
+    margin: 50px 50px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Square{
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+}
+.LightBrown{
+    background-color: #b19774;
+}
+.FullBrown{
+    background-color: #8c572f;
+}
+.Black{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.Rook,
+.Bishop,
+.Knight,
+.King,
+.Queen,
+.Pawn
+{
+    font-size: 60px;
+}
